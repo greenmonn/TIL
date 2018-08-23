@@ -39,7 +39,8 @@ class BranchNode(Node):
         newNode.children = self.children
         
         if not key:
-            return newNode.setValue(value)
+            newNode.value = value
+            return newNode.reduce()
         
         child = newNode.children[key[0]]
 
@@ -47,19 +48,18 @@ class BranchNode(Node):
             child = BranchNode()
 
         newNode.children[key[0]] = child.Put(key[1:], value)
-        return newNode.setValue(self.value)
+        newNode.value = self.value
+        return newNode.reduce()
 
-    def setValue(self, value):
+    def reduce(self):
         for child in self.children:
             if child is not None:
-                self.value = value
                 return self
 
-        if not value:
+        if not self.value:
             return None
 
-        return LeafNode(value)
-        
+        return LeafNode(self.value)
         
 
 class LeafNode(Node):
