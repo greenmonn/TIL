@@ -65,6 +65,9 @@ class BranchNode(Node):
 class LeafNode(Node):
     def __init__(self, value = []):
         self.value = value
+
+    def Hash(self):
+        return hash(self)
     
     def Find(self, key):
         if not key:
