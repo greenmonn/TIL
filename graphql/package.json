@@ -1,0 +1,25 @@
+{
+  "name": "graphql-start",
+  "version": "1.0.0",
+  "description": "Today I Learned",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greenmonn/til.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greenmonn/til/issues"
+  },
+  "homepage": "https://github.com/greenmonn/til#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "graphql": "^14.0.2"
+  }
+}
