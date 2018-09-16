@@ -13,3 +13,5 @@
 - [Electron Documentation](https://electronjs.org/docs)
 
 - [Electron In Action](https://freecontent.manning.com/electron-in-action-article-1/): Article
+
+- [일렉트론 가볍게 시작하기 강좌](https://www.youtube.com/watch?v=kvV9yGXpAT0&list=PLO5I7_31L6v7YCj4OfjA7xZeA-W1EH3bD&index=6)
