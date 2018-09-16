@@ -4,9 +4,9 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
-    
-
+    "start": "electron .",
+    "build": "electron-packager . --out=dist --asar --overwite --platform=darwin --ignore=dist",
+    "compress": "cd dist; for file in `ls`; do zip -r -y $file.zip $file; done"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -19,6 +19,7 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^2.0.0"
+    "electron": "^2.0.0",
+    "electron-packager": "^12.1.2"
   }
 }
