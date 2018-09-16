@@ -6,9 +6,9 @@
 
 - Electron은 Chromium의 렌더링 라이브러리 부분만 사용한다. 
 
-- Electron에 새로 추가되는 기능은 기본적으로 Node.js 모듈 형식의 네이티브 API가 된다. 
+- Electron에 새로 추가되는 기능은 기본적으로 Node.js 모듈 형식의 네이티브 API가 된다.
 
-![Electron Basic](https://freecontent.manning.com/wp-content/uploads/kinney_1_01.png)
+![Electron Basic](https://www.dropbox.com/s/wy9p5tm1qn33mqr/kinney_1_01.png?raw=1)
 
 - [Electron Documentation](https://electronjs.org/docs)
 
